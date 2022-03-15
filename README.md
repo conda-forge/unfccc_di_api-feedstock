@@ -5,7 +5,7 @@ Home: https://github.com/pik-primap/unfccc_di_api
 
 Package license: Apache-2.0
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/unfccc_di_api-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/unfccc_di_api-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python wrapper around the Flexible Query API of the UNFCCC.
 
@@ -19,8 +19,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12556&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/unfccc_di_api-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12556&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/unfccc_di_api-feedstock?branchName=main">
       </a>
     </td>
   </tr>
