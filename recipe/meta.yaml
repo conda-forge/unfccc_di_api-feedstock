@@ -1,5 +1,5 @@
 {% set name = "unfccc_di_api" %}
-{% set version = "3.0.0" %}
+{% set version = "3.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/unfccc_di_api-{{ version }}.tar.gz
-  sha256: cbd09814fad0b41fbaef301ab28b2e65a1acf828a583027a77613ee5d7ced719
+  sha256: 952427922183387767df3b3184ca93890418c62a9e94cd9b27c551661dfb534e
 
 build:
   number: 0
