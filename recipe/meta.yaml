@@ -24,6 +24,8 @@ requirements:
     - python >=3.6
     - requests
     - treelib
+    - pooch
+    - pyarrow
 
 test:
   imports:
