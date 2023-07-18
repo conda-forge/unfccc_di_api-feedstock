@@ -1,11 +1,11 @@
-About unfccc_di_api
-===================
+About unfccc_di_api-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/unfccc_di_api-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pik-primap/unfccc_di_api
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/unfccc_di_api-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python wrapper around the Flexible Query API of the UNFCCC.
 
