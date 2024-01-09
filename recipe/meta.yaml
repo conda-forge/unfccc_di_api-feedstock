@@ -17,15 +17,16 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.9
     - setuptools-scm
   run:
     - pandas
     - python >=3.6
     - requests
     - treelib
-    - pooch
+    - pooch >=1.8.0
     - pyarrow
+    - fake-useragent
 
 test:
   imports:
