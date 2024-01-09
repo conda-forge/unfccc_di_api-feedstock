@@ -1,5 +1,5 @@
 {% set name = "unfccc_di_api" %}
-{% set version = "4.0.0" %}
+{% set version = "4.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/unfccc_di_api-{{ version }}.tar.gz
-  sha256: 5ac6c4c81175c7a2c242724bf173040ce870dcf593b156f07aa02a8c05d96d79
+  sha256: ee39106827695db96bbb306ef10ca7a12d56abee7f80c8452bf38e5769e5e116
 
 build:
   number: 0
@@ -17,15 +17,16 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.9
     - setuptools-scm
   run:
     - pandas
     - python >=3.6
     - requests
     - treelib
-    - pooch
+    - pooch >=1.8.0
     - pyarrow
+    - fake-useragent
 
 test:
   imports:
